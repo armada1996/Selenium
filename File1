@@ -17,7 +17,7 @@
 		WebElement VALUE = driver.findElement(By.name("cpy"));
 		System.out.println("Without Click :"+ VALUE.isEnabled());
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		VALUE.click();
 		System.out.println("With Click :"+ VALUE.isEnabled());
@@ -31,3 +31,4 @@
 		Thread.sleep(3000);
 		
 		driver.findElement(By.linkText("Sign Out")).click();
+		driver.get
